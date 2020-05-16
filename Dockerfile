@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy source codes
-COPY ./* .
+COPY ./server.js .
 
 # Exceute command
 

@@ -4,7 +4,8 @@
    "description": "Nodejs basic server",
    "devDependencies": {},
    "dependencies": {
-      "http": "0.0.1-security"
+      "http": "0.0.1-security",
+      "socket.io": "^2.3.0"
    },
    "scripts": {
       "start": "node server.js"
